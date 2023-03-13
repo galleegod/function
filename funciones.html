@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ejercicio de suma en JavaScript</title>
+    <script>
+        function suma_lista(x, y, z){
+            total= x + y + z;
+           return total;
+        }
+
+        function suma_listaa(lista_numeros){
+            let total= 0;
+            let i= 0;
+            while(i< lista_numeros.length){
+                total= total+ lista_numeros[i];
+                i= i + 1;
+            }
+            return total;
+        }
+
+        function mayor(a, b){
+            if(a<b){
+                return b;
+            }else{
+                return a;
+            }
+        }
+
+        function menor(a, b){
+            if(a>b){
+                return b;
+            }else{
+                return a;
+            }
+        }
+
+        function par_impar(a){
+            if(a%2){
+                return false;
+            }else{
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>   
+</body>
+</html>
